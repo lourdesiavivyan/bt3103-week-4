@@ -12,7 +12,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BOSQUSTORE_43465 }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BT3103_WEEK_4_B8615 }}'
           projectId: bosqustore-43465
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
